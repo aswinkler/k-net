@@ -1,8 +1,8 @@
 # test_dual_functions.py
 
 import numpy as np
-from dual_tensor import DualTensor
-from dual_functions import sin, cos, exp, log, relu
+from knetdual.dual_tensor import DualTensor
+from knetdual.dual_functions import sin, cos, exp, log, relu
 
 def test_exp():
     x = DualTensor([0.0, 1.0], [1.0, 2.0])

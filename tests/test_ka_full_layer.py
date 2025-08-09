@@ -1,8 +1,8 @@
 # test_ka_full_layer.py
 
 import numpy as np
-from ka_full_layer import KAFullLayer
-from dual_tensor import DualTensor
+from knetdual.ka_full_layer import KAFullLayer
+from knetdual.dual_tensor import DualTensor
 
 def test_ka_full_real():
     knots = [0, 0, 0, 0, 1, 2, 3, 3, 3, 3]

@@ -1,5 +1,5 @@
 # test_dual_tensor.py
-from dual_tensor import DualTensor
+from knetdual.dual_tensor import DualTensor
 import numpy as np
 
 def test_addition():

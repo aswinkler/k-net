@@ -1,8 +1,8 @@
 # test_ka_inner_layer.py
 
 import numpy as np
-from ka_inner_layer import KAInnerLayer
-from dual_tensor import DualTensor
+from knetdual.ka_inner_layer import KAInnerLayer
+from knetdual.dual_tensor import DualTensor
 
 def test_ka_inner_real():
     np.random.seed(0)

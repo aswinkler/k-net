@@ -1,7 +1,7 @@
 # test_bspline.py
 
-from bspline import BSplineBasis
-from dual_number import DualNumber
+from knetdual.bspline import BSplineBasis
+from knetdual.dual_number import DualNumber
 import numpy as np
 
 def test_scalar_eval():

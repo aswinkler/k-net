@@ -1,7 +1,7 @@
 # bspline.py
 
 import numpy as np
-from dual_number import DualNumber
+from knetdual.dual_number import DualNumber
 
 class BSplineBasis:
     """

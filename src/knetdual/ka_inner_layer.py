@@ -1,9 +1,9 @@
 # ka_inner_layer.py
 
 import numpy as np
-from dual_tensor import DualTensor
-from dual_number import DualNumber
-from bspline import BSplineBasis
+from knetdual.dual_tensor import DualTensor
+from knetdual.dual_number import DualNumber
+from knetdual.bspline import BSplineBasis
 
 class KAInnerLayer:
     """

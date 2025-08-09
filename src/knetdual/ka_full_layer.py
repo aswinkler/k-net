@@ -1,9 +1,9 @@
 # ka_full_layer.py
 
 import numpy as np
-from ka_inner_layer import KAInnerLayer
-from ka_outer_layer import KAOuterLayer
-from dual_tensor import DualTensor
+from knetdual.ka_inner_layer import KAInnerLayer
+from knetdual.ka_outer_layer import KAOuterLayer
+from knetdual.dual_tensor import DualTensor
 
 class KAFullLayer:
     """

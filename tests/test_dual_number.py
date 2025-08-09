@@ -1,5 +1,5 @@
 # test_dual_number.py
-from dual_number import DualNumber
+from knetdual.dual_number import DualNumber
 
 def test_addition():
     a = DualNumber(2, 3)

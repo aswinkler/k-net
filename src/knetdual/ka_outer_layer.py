@@ -1,8 +1,8 @@
 # ka_outer_layer.py
 
 import numpy as np
-from dual_number import DualNumber
-from dual_tensor import DualTensor
+from knetdual.dual_number import DualNumber
+from knetdual.dual_tensor import DualTensor
 
 class KAOuterLayer:
     """

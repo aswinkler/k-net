@@ -1,7 +1,7 @@
 # dual_functions.py
 
 import numpy as np
-from dual_tensor import DualTensor
+from knetdual.dual_tensor import DualTensor
 
 def sin(x: DualTensor) -> DualTensor:
     """

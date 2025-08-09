@@ -1,7 +1,7 @@
 # kan_model.py
 
-from ka_full_layer import KAFullLayer
-from dual_tensor import DualTensor
+from knetdual.ka_full_layer import KAFullLayer
+from knetdual.dual_tensor import DualTensor
 
 class KANetwork:
     """
