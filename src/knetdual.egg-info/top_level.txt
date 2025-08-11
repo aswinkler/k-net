@@ -1,4 +1,0 @@
-knetdual
-train_ka_network
-train_kan_diabetes
-train_kan_iris
